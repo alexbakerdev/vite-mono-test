@@ -2,19 +2,9 @@
 
 1. `yarn workspace web dev` 
 2. open `packages/ui/src/button.tsx` and make an edit
-3. observe fast refresh of web app 
+3. observe fast refresh of web app
 
-# Turborepo starter
-
-This is an official starter Turborepo.
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest
-```
+I've also taken a first pass at making the tsconfig in web app use the internal typescript-config package. Eslint should be configured to be shared also.
 
 ## What's inside?
 
@@ -22,8 +12,7 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
+- `web`: a vite app
 - `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo

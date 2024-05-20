@@ -1,3 +1,9 @@
+# Testing how vite handles internal turbo repo dependecies.
+
+1. `yarn workspace web dev` 
+2. open `packages/ui/src/button.tsx` and make an edit
+3. observe fast refresh of web app 
+
 # Turborepo starter
 
 This is an official starter Turborepo.
